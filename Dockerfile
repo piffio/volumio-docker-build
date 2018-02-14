@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:stretch-slim
 MAINTAINER Sergio Visinoni <piffio@piffio.org>
 
 RUN apt-get update && \
